@@ -43,7 +43,7 @@ void draw () {
 
   xstartNoise+=0.1;
   ystartNoise+=0.1;
-  xstart+=(noise(xstartNoise)*0.8);
+  xstart+=noise(xstartNoise*0.8);
   ystart+=(noise(ystartNoise)*0.1)-0.5;
   xnoise = xstart;
   ynoise = ystart;
