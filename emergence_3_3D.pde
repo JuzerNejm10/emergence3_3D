@@ -7,7 +7,6 @@ String lineCheck = "more";
 
 void setup() {
   size(displayWidth, displayHeight, P3D);
-  smooth();
   background(255);
   frameRate(12);
   noCursor();
