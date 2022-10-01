@@ -9,7 +9,7 @@ void setup() {
   size(displayWidth, displayHeight, P3D);
   smooth();
   background(255);
-  frameRate(20);
+  frameRate(12);
   noCursor();
 
   xstartNoise = random(20);
